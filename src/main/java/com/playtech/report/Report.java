@@ -48,4 +48,6 @@ public class Report {
     public List<Column> getOutputs() {
         return outputs;
     }
+
+    public List<Transformer> getTransformers() { return transformers; }
 }
